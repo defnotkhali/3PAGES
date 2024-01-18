@@ -198,7 +198,7 @@ padding:1.5rem;
    font-size:2rem;
    transition:.5s ease;
 }.btn.bg--transparent{
-    border:2px solid #ffffff;
+
     color:#ffffff;
     text-align:center;
   }
@@ -225,11 +225,11 @@ padding:1.5rem;
     .services__card{
   padding:3rem 3rem 0 3rem;
   height:525px;
-  justify-content:space-between; 
+  justify-content:space-between;
   position:relative;
   font-size:1.6rem;
   transition:.5s ease;
-  
+
     }
   .services__card h4{
     text-align:center;
@@ -237,7 +237,7 @@ padding:1.5rem;
     font-weight:600;
     margin-bottom:3rem;
     color:#ffa700;
-  
+
   }
   .services__card p{
     font-size:1.5rem;
@@ -254,18 +254,18 @@ padding:1.5rem;
     position:absolute;
     width:60%;
     border-radius:10rem;
-  } 
+  }
   .services__card:hover{
     scale:1.1;
-    transition:.5s ease;  
+    transition:.5s ease;
   }
   .services__card:hover a{
-  
+
     color:#ffffff;
     background:#ffa700;
     }
-   
-      
+
+
   /* ABOUT */
 .about{
   background:#ffffff;
@@ -293,7 +293,7 @@ padding:1.5rem;
 .trends{
   background-color:#2b2b2b;
  padding-top: 3rem;
- padding-bottom:25rem;
+ padding-bottom:15rem;
   display:flex;
 }
   .trends__content{
@@ -309,7 +309,7 @@ padding:1.5rem;
       grid-gap:4rem;
       color:#ffffff;
 
- 
+
 }
 .trends__card {
   width:35rem;
@@ -355,9 +355,8 @@ padding:1.5rem;
 /* contacts */
 .contact{
   background:#ffa700;
-  padding-top:4rem;
-  padding-bottom:4rem;
- 
+  padding-top:8rem;
+  padding-bottom:8rem;
   display:grid;
 }
 .contact h1{
@@ -378,8 +377,131 @@ text-align:center;
   text-align:center;
   display:grid;
 }
+/* FOOTER */
+.footer{
+  width:100%;
+  padding-top:3rem;
+  background-color:#2b2b2b;
+  }
+  .footer__wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    text-align: center;
+  }
+  .footer ul{
+    display:flex;
+    gap:1.5rem;
+    justify-content: space-between;
+    color:#2b2b2b;
+  }
+  .footer ul li a{
+  color:gray;
+  font-size:3rem;
+  justify-content:center;
+  gap: 1rem;
+  }
+  .footer p{
+    color:gray;
+  }
+  .footer ul{
+  justify-content:center;
+  }
+  /* contact page */
+  .contacts{
+    background:#2b2b2b;
+ padding-top:5rem;
+ padding-bottom:6rem;
+ display:grid;
+  }
+  .contacts_wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+.contacts h1{
+  color:#ffa700;
+  font-size:6rem;
+  font-weight:900;
+  padding-top:9rem;
+
+}
+.contacts p{
+  color:#ffffff;
+  font-size:1.8rem;
+  font-weight:400;
+  padding-top:9rem;
+  width:37rem;
 
 
+}
+.contacts ul{
+  display:flex;
+  color:#ffa700;
+padding-top:9rem;
+gap:1rem;
+
+}
+.contacts ul li a{
+  color:#ffff ;
+  font-size:3rem;
+
+}
+.contacts table tr td{
+  font-size:1.5rem;
+  color:gray;
+ width:2rem;
+ padding-top:5rem;
+
+}
+.contacts table tr td:first-child{
+  font-weight:600;
+  color:#ffa700;
+}
+.contacts table{
+  width:70%;
+
+}
+.contacts table tr{
+  height:5rem;
+}
+.contacts_page_form{
+  position:relative;
+  height:530px;
+ 
+  
+}
+.contacts_page_form form{
+display:flex;
+flex-direction:column;
+padding-top:10rem;
+gap:3rem; 
+
+}
+.contacts_page_form form input{
+height:5rem;
+width:60rem;
+}
+.contacts_page_form text area{
+border:1px solid gray;
+padding:2rem;
 
 
-
+height:155rem;
+width:60rem;
+}
+.contacts_page_form form a{
+  justify-content:center;
+  display:flex;
+  position:absolute;
+  bottom:0%;
+  right:1%;
+}
+.contacts_page_form form a:hover{
+scale:1.1;
+transition:.5s ease;
+background:transparent;
+border:2px solid #ffa700;
+color:#ffa700;
+}
